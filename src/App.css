@@ -1,0 +1,77 @@
+/* css reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  font-family: 'Poppins', sans-serif;
+  color: whitesmoke;
+}
+
+nav {
+  padding: 15px 40px;
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.486);
+}
+
+#hero-section {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 60px;
+}
+
+#hero-photo{
+  align-self: center;
+  max-width: 100%;
+}
+
+#hero-section > h1{
+  font-size: 120px;
+}
+
+#hero-section > p{
+  font-size: 50px;
+  max-width: 800px;
+}
+
+.card{
+  padding: 30px;
+  position: relative;
+}
+
+.card-stats {
+  display: flex;
+  align-items: center;
+}
+
+.card-stats > img{
+  height: 14px;
+}
+
+.card-photo {
+  border-radius: 5%;
+  width: 23rem;
+}
+
+.card-badge{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  background-color: white;
+  color: black;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.gray{
+  color: gray;
+}
+
+#card-elements{
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
